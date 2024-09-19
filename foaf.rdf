@@ -1,22 +1,23 @@
-<?xml-stylesheet type="text/xsl" href="foaf.xsl"?>
 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="foaf.xsl"?>
+
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
   <foaf:Person>
-  <foaf:name>Gapo</foaf:name>
-  <foaf:homepage rdf:resource="https://github.com/RicoGac/Rico"/>
-  <foaf:mbox rdf:resource="americo.gapo@etudiant.univ-lr.fr"/>
-  <foaf:nick>Rico</foaf:nick>
-  
-  <!-- Connaissances -->
-  <foaf:knows>
-    <foaf:Person>
-      <foaf:name>Tom</foaf:name>
-      <foaf:homepage rdf:resource="https://tomlavergne.github.io/"/>
-    </foaf:Person>
-  </foaf:knows>
-</foaf:Person>
+    <foaf:name>Gapo</foaf:name>
+    <foaf:homepage rdf:resource="https://github.com/RicoGac/Rico"/>
+    <foaf:mbox rdf:resource="mailto:americo.gapo@etudiant.univ-lr.fr"/>
+    <foaf:nick>Rico</foaf:nick>
+    
+    <!-- Connaissances -->
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Tom</foaf:name>
+        <foaf:homepage rdf:resource="https://tomlavergne.github.io/"/>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
 
 </rdf:RDF>
 
